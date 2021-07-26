@@ -35,7 +35,7 @@ dt {
   background: #fe4902;
 
   color: #fff;
-  font: bold 18px Helvetica, Arial, sans-serif;
+  font: bold 28px Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 2px 0 0 12px;
   position: sticky;
@@ -49,6 +49,10 @@ dd {
   white-space: nowrap;
 }
 
+.number {
+  float: right;
+  margin-right: 2%;
+}
 dd:nth-child(even) {
   background-color: #f4d6cc;
 }
