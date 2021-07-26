@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 3%;
+}
+h1 {
+  font-size: 50px;
+  display: flex;
+  margin-left: auto;
+  flex-direction: row;
+  padding: 20px 0 12px 0;
+}
+
+img {
+  height: 25%;
+  width: 25%;
+  display: flex;
+  position: relative;
+}
+dl > div {
+  background: #fff;
+  padding: 24px 0 0 0;
+}
+
+dt {
+  background: #fe4902;
+
+  color: #fff;
+  font: bold 18px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2px 0 0 12px;
+  position: sticky;
+  top: -1px;
+}
+
+dd {
+  font: bold 20px/45px Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 0 12px;
+  white-space: nowrap;
+}
+
+dd:nth-child(even) {
+  background-color: #f4d6cc;
+}
+dd:nth-child(odd) {
+  background-color: #fff4ee;
+}
