@@ -59,3 +59,9 @@ dd:nth-child(even) {
 dd:nth-child(odd) {
   background-color: #fff4ee;
 }
+
+footer {
+  margin-top: 55px;
+  font-size: 20px;
+  text-align: center;
+}
